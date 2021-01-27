@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <title>Amy Fraizer</title>
+        <link rel='stylesheet' href="style.css">
+    </head>
+    <body>
+        <h1>Welcome to my page!</h1>
+        <h3>A little about me:</h3>
+        <p id="info">I am working on getting my bachelor's degree in Computer Science with a concentration in Communications.</br></br>
+           I am from Vancouver, Washington but now live in Spokane while I attend Gonzaga University. <br><br>
+           My parents live in Vancouver with my two brothers and my dog. Here is a picture of the two of us.
+        </p>
+        
+        <img id='penny' src="penny.JPG"> <br><br>
+        <p id='txt'> </p>
+
+        <div class="btn">
+            <div class="centered">
+                <button id="button" onclick="addText()">Click here for more info!</button>
+            </div>
+        </div>
+
+
+        <script>
+            function addText() {
+                document.getElementById("txt").innerHTML = "Her name is Penny and she is six years old.";
+            }
+        </script>
+
+    </body>
+</html>
